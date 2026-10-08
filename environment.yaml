@@ -1,0 +1,23 @@
+channels:
+  - conda-forge
+dependencies:
+  - python=3.14.6
+  - numpy=2.4.6
+  - numba=0.66.0
+  - scipy=1.18.0
+  - seaborn=0.13.2
+  - statsmodels=0.14.6
+  - scikit-learn=1.9.0
+  - pandas=3.0.5
+  - pyinstrument=5.1.3
+  - jupyterlab=4.6.2
+  - matplotlib=3.11.1
+  - plotly=6.9.0
+  - marimo=0.23.16
+  - networkx=3.6.1
+  - openpyxl=3.1.5
+  - pip=26.2.1
+  - pip:
+    - git+https://github.com/EducationalTestingService/factor_analyzer@de933d26808039d965c117874c67260ec5149690
+    - git+https://github.com/VladGTT/ClusterValid@07f4fcfbdd060df3c397e6b7f9b9d758afb15df1
+    - jupyterlab-execute-time==3.3.0
